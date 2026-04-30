@@ -1,8 +1,10 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
+    
     AppContainer: {
       padding: 50,
+      backgroundColor: '#ffffff',
     },
     inputContainer: {
       flexDirection: 'row',
@@ -23,5 +25,12 @@ export const styles = StyleSheet.create({
     },
     goalsContainer: {
       flex: 5
+    },
+    goalItem: {
+      margin: 8,
+      padding: 8,
+      borderRadius: 6,
+      backgroundColor: '#5e0acc',
+      color: 'white'
     }
 });
