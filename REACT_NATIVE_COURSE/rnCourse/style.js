@@ -1,7 +1,6 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    
     AppContainer: {
       padding: 50,
       backgroundColor: '#ffffff',
@@ -32,5 +31,8 @@ export const styles = StyleSheet.create({
       borderRadius: 6,
       backgroundColor: '#5e0acc',
       color: 'white'
-    }
+    },
+    goalText: {
+      color: 'white',
+    },
 });
