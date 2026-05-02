@@ -2,10 +2,12 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   AppContainer: {
+    flex: 1,
     padding: 50,
     backgroundColor: "#311b6b",
   },
   inputContainer: {
+    height: '100%',
     flexDirection: "center",
     justifyContent: "space-between",
     alignItems: "center",
@@ -52,5 +54,6 @@ export const styles = StyleSheet.create({
     height: 100,
     margin: 20,
     borderRadius: 10,
+    marginTop: 20
   },
 });

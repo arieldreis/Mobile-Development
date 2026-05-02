@@ -33,7 +33,7 @@ const GoalInput = ({ onAddGoal, onInputHandler, visible, onCancel }) => {
             <Button title="Tap Me!" onPress={addGoalHandler} color="#5e0acc" />
           </View>
           <View style={styles.button}>
-            <Button title="Cancel" onPress={onCancel} color="#f31282" />
+            <Button title="Cancel!" onPress={onCancel} color="#f31282" />
           </View>
         </View>
       </View>
