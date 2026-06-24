@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     padding: 40,
     justifyContent: 'center',
     gap: 15,
+    marginTop: 40
   },
 
   titulo: {
@@ -21,7 +22,7 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: '#333',
+    color: '#a19d9d',
     padding: 5,
   },
 
@@ -51,18 +52,14 @@ export const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#fff',
     borderRadius: 10,
-
     borderLeftWidth: 5,
     borderLeftColor: '#007aff',
-
     elevation: 2, // sombra para Android
-
     shadowColor: '#000', // sombra para iOS
     shadowOffset: {
       width: 0,
       height: 2,
     },
-
     shadowOpacity: 0.1,
   },
 });

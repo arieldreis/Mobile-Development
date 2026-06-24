@@ -16,7 +16,7 @@ export default function App() {
         <View>
           <Text>Nome:</Text>
           <TextInput 
-            placeholder='João da Silva...'
+            placeholder='Ariel Dos Reis Marinho...'
             onChangeText={(v) => setNome(v)}
           />
         </View>
@@ -42,12 +42,13 @@ export default function App() {
           />
         </View>
         <View style={styles.qdResultado}>
-          <Text style={styles.rotulo}>Resultados</Text>
+          <Text style={styles.rotulo}>Dados: </Text>
           <Text style={styles.rotulo}>Input: {nome}</Text>
           <Text style={styles.rotulo}>Switch: { not ? "True" : "False"}</Text>
           <Text>Slider: {dif}</Text>
         </View>
       </ScrollView>
+      <StatusBar backgroundColor="blue" barStyle='light-content'/>
     </View>
   );
 }
