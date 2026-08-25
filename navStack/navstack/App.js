@@ -1,5 +1,5 @@
 import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "react-native/types_generated/src/private/webapis/dom/nodes/ReactNativeDocument";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import Home from "./src/screens/Home.js"
 import Login from "./src/screens/Login.js"
