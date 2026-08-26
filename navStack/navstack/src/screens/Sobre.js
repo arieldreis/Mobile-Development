@@ -1,9 +1,9 @@
 import { View, Text, ScrollView, StyleSheet } from "react-native";
 export default function Home(){
     return(
-        <View style={styles.contenador}>
-            <ScrollView style={styles.rolagem}>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+        <View style={ styles.contenador }>
+            <ScrollView style={ styles.rolagem }>
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -16,7 +16,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -29,7 +29,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -42,7 +42,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -55,7 +55,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -68,7 +68,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -81,7 +81,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
@@ -94,7 +94,7 @@ export default function Home(){
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti.
                 </Text>
-                <Text style={styles.txt}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
+                <Text style={ styles.txt }>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,
                     maiores quisquam minus iste officiis dolores autem quas ipsa sint et est a quasi corrupti
                     soluta omnis architecto. Deleniti
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis vero tenetur,

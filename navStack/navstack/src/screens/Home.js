@@ -1,27 +1,23 @@
-import { View, Text, Button, StyleSheet } from "react-native";
+import { View, Text, Button, StyleSheet, TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native"
 export default function Home(){
     const nav = useNavigation();
     return(
-        <View>
-            <Text>Home</Text>
-            <Button 
-            title="About Us" 
-            color="#ff0000" 
-            onPress={() => nav.navigate("Sobre")}
-            />
+        <View style={ styles.contenador }>
+            <Text style={ styles.txt }>HOME</Text>
 
-            <Button 
-            title="Entrar" 
-            onPress={() => nav.navigate('Login')}
-            />
-            <Button 
-            title="Estudo do Flex" 
-            onPress={() => nav.navigate('Flex')} 
-            />
+            <TouchableOpacity onPress={() => nav.navigate("Sobre")} style={ styles.btn }>
+                <Text style={ styles.btnText }>SOBRE</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => nav.navigate("Login")} style={ styles.btn }>
+                <Text style={ styles.btnText }>Login</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={() => nav.navigate("Flex")} style={ styles.btn }>
+                <Text style={ styles.btnText }>Flex</Text>
+            </TouchableOpacity>
 
             {/* SE UMA FUNÇÃO ARROW TIVER SÓ UMA LINHA DE CÓDIGO NÃO PRECISA DE CHAVES*/}
-            <Text></Text>
         </View>
     )
 };
@@ -34,6 +30,19 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     txt: {
+        fontFamily: "Arial",
         fontSize: 30,
+        fontStyle: "italic",
+        fontWeight: "bold"
     },
-});
+    btn: {
+        backgroundColor: "#ff0000",
+        padding: 15,
+        borderRadius: 10,
+    },
+    btnText: {
+        color: "#ffffff",
+        fontWeight: "bold",
+        fontStyle: "italic"
+    }
+}); 
